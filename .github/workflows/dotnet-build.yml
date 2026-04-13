@@ -1,0 +1,9 @@
+name: Build .NET app
+
+on:
+  workflow_call:
+    inputs:
+      dotnet_version:
+        required: true
+        type: string
+      
